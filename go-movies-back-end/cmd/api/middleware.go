@@ -16,3 +16,5 @@ func (app *application) enableCORS(h http.Handler) http.Handler {
 		}
 	})
 }
+
+func (app *application) authRequired
